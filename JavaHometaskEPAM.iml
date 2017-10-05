@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/hometask-1/src/main/java/task-1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hometask-2/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/hometask-2/src/test/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/hometask-2/src/main/java/task-1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
