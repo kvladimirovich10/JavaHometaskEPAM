@@ -1,3 +1,5 @@
+package task3;
+
 public class Task_3 {
 
     private static final double MAX_VAL = Double.MAX_VALUE;

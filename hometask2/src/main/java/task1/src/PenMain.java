@@ -1,1 +1,0 @@
-public class PenMain {    public static void main(String[] args) {        Pen pen = new Pen(Type.BALLPOINT, Color.RED, 0.5, Brand.PARKER);        System.out.println(pen.toString());    }}
