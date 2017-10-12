@@ -1,0 +1,1 @@
+package hometask2.task3;public class Item {    double price;}

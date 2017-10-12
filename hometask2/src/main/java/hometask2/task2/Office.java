@@ -1,0 +1,1 @@
+package hometask2.task2;import java.util.ArrayList;import java.util.List;public class Office {    private List<Employee> emplList;    public Office() {        this.emplList = new ArrayList<>();    }    public List<Employee> getEmplList() {        return emplList;    }}

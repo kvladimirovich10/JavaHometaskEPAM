@@ -1,0 +1,1 @@
+package hometask2.task3;enum WritingColor {BLUE, BLACK, RED, PINK, YELLOW, WHITE}public class WritingItem extends Item {    WritingColor writingColor;    boolean permanent;}

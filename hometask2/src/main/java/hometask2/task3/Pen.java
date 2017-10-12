@@ -1,0 +1,1 @@
+package hometask2.task3;enum PenType {}public class Pen extends WritingItem {}

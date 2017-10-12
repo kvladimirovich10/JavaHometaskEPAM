@@ -1,0 +1,1 @@
+package hometask2.task3;enum PaperServiceItemType {}public class PaperServiceItem extends Item{    PaperStorageItemType type;    public PaperServiceItem(PaperStorageItemType type, double price) {        this.type = type;        this.price = price;    }}
