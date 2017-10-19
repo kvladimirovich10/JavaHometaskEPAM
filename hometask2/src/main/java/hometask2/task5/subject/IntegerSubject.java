@@ -1,0 +1,1 @@
+package hometask2.task5.subject;import lombok.Data;@Datapublic class IntegerSubject extends Subject {    private int minMark;    private int maxMark;    public IntegerSubject(SubjectName subjectName, int minMark, int maxMark) {        this.minMark = minMark;        this.maxMark = maxMark;        this.subjectName = subjectName;    }}

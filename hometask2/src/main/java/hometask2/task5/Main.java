@@ -1,1 +1,1 @@
-package hometask2.task5;public class Main {    public static void main(String[] args) {    }}
+package hometask2.task5;import hometask2.task5.student.Student;import hometask2.task5.subject.Subject;import java.util.ArrayList;import java.util.List;public class Main {    public static void main(String[] args) {        List<Subject> subjectList = new ArrayList<>();        List<Student> studentList = new ArrayList<>();    }}
