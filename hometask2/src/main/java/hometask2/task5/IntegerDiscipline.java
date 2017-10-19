@@ -1,1 +1,0 @@
-package hometask2.task5;public class IntegerDiscipline extends Discipline {    int minMark;    int maxMark;    public IntegerDiscipline(DisciplineName disciplineName, int minMark, int maxMark) {        this.minMark = minMark;        this.maxMark = maxMark;        this.disciplineName = disciplineName;    }}

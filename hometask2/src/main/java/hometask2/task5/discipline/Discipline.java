@@ -1,0 +1,1 @@
+package hometask2.task5.discipline;import lombok.Data;enum DisciplineName {MATH, PHYSICS, MUSIC, LANGUAGE}@Datapublic class Discipline {    DisciplineName disciplineName;}
