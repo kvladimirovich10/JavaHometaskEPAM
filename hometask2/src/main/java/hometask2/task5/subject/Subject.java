@@ -1,1 +1,1 @@
-package hometask2.task5.subject;import hometask2.task5.student.Student;import lombok.Data;import java.util.List;enum SubjectName {MATH, PHYSICS, MUSIC, LANGUAGE, FOREIGN_LANGUAGE, COMPUTER_SCIENCE, ART}@Datapublic abstract class Subject {    SubjectName subjectName;    List<Student> studentSubjectList;}
+package hometask2.task5.subject;import hometask2.task5.student.Student;import lombok.Data;import java.util.List;@Datapublic abstract class Subject {    SubjectName subjectName;    List<Student> studentSubjectList;}

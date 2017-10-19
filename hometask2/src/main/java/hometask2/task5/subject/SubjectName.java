@@ -1,0 +1,1 @@
+package hometask2.task5.subject;public enum SubjectName {MATH, PHYSICS, LANGUAGE, COMPUTER_SCIENCE, ART}

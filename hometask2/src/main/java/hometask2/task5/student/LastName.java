@@ -1,0 +1,1 @@
+package hometask2.task5.student;public enum LastName {    SMITH, JOHNSON, WILLIAMS, JONES, BROWN, DAVIS, MILLER, WILSON, MOORE, ANDERSON}
