@@ -1,0 +1,1 @@
+package hometask2.task5;enum DisciplineName {MATH, PHYSICS, MUSIC, LANGUAGE}abstract class Discipline {    DisciplineName disciplineName;}

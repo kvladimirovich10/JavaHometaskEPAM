@@ -1,0 +1,1 @@
+package hometask2.task5;import java.util.List;public class Student {    String name;    String lastName;    List<Discipline> disciplineList;}
