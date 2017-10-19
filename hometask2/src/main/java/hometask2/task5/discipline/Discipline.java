@@ -1,1 +1,1 @@
-package hometask2.task5.discipline;import lombok.Data;enum DisciplineName {MATH, PHYSICS, MUSIC, LANGUAGE}@Datapublic class Discipline {    DisciplineName disciplineName;}
+package hometask2.task5.discipline;import hometask2.task5.student.Student;import lombok.Data;import java.util.List;enum DisciplineName {MATH, PHYSICS, MUSIC, LANGUAGE}@Datapublic abstract class Discipline {    DisciplineName disciplineName;    List<Student> studentDisciplineList;}

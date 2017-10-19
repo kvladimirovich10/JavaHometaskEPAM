@@ -1,0 +1,1 @@
+package hometask2.task5.student;import hometask2.task5.discipline.Discipline;public class StudentService {    public static void addDiscipline(Student student, Discipline discipline) {        student.disciplineList.add(discipline);    }}
