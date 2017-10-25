@@ -1,0 +1,1 @@
+package hometask2.task5.subject;public class Mark {    private int subjectIndex;    private double mark;    public Mark(int subjectIndex, double mark) {        this.subjectIndex = subjectIndex;        this.mark = mark;    }    public int getSubjectIndex() {        return subjectIndex;    }    public double getMark() {        return mark;    }}
