@@ -1,0 +1,1 @@
+package hometask2.task6;public class Main {    public static void main(String[] args) {        NuclearPowerBoat nuclearPowerBoat = new NuclearPowerBoat();        NuclearPowerBoat.NuclearPowerBoatEngine nuclearPowerBoatEngine = nuclearPowerBoat.new NuclearPowerBoatEngine();        System.out.println(nuclearPowerBoatEngine.toString());    }}

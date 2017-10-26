@@ -1,0 +1,1 @@
+package hometask2.task6;import lombok.Getter;@Getterpublic class NuclearPowerBoat {    private String string = "Engine is running!";    class NuclearPowerBoatEngine {        @Override        public String toString() {            return string;        }    }}
