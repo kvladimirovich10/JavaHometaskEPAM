@@ -1,0 +1,1 @@
+package hometask2.task7;import java.lang.annotation.Documented;@Documentedpublic @interface Annotation {    }
