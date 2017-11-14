@@ -1,1 +1,1 @@
-package hometask4.task1;public class Main {    public static void main(String[] args) {    }}
+package hometask4.task1;import java.io.IOException;import java.util.ArrayList;public class Main {    public static void main(String[] args) throws IOException {        ArrayList<String> keyWords = Service.readKeyWords("hometask4/src/main/resources/keyWords.txt");        ArrayList<String> code = Service.readCode("hometask4/src/main/resources/code.txt");        Service.printer(code);        Service.matcher(keyWords, code);    }}
