@@ -1,1 +1,1 @@
-package hometask4.task3;public class Main {}
+package hometask4.task3;public class Main {    public static void main(String[] args) {        String plainText = Service.readText("hometask4/src/main/resources/plainRusText.txt");        Service.writeUTF8(plainText,"hometask4/src/main/resources/rusText_UTF-8.txt");        Service.writeUTF16("hometask4/src/main/resources/rusText_UTF-8.txt",                "hometask4/src/main/resources/RusText_UTF-16.txt");    }}
