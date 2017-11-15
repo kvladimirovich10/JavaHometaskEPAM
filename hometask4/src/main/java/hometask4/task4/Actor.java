@@ -1,1 +1,1 @@
-package hometask4.task4;import java.io.Serializable;public class Actor implements Serializable {}
+package hometask4.task4;import java.io.Serializable;public class Actor implements Serializable {    private String name;    private String lastName;    public Actor(String name, String lastName) {        this.name = name;        this.lastName = lastName;    }    public String getName() {        return name;    }    public String getLastName() {        return lastName;    }}
