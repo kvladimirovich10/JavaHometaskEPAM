@@ -1,0 +1,1 @@
+package hometask4.task4;import java.io.Serializable;public class Actor implements Serializable {}
