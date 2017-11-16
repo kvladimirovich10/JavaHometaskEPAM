@@ -21,11 +21,11 @@
         </plugins>
     </build>
     <modules>
-        <module>ht1</module>
-        <module>hometask2</module>
         <module>hometask1</module>
+        <module>hometask2</module>
         <module>hometask3</module>
         <module>hometask4</module>
+        <module>hometask5</module>
     </modules>
 
     <properties>
@@ -33,14 +33,14 @@
         <java.version>9</java.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>LATEST</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>org.projectlombok</groupId>-->
+            <!--<artifactId>lombok</artifactId>-->
+            <!--<version>LATEST</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
 
 </project>
 
