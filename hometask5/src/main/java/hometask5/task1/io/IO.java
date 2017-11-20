@@ -1,16 +1,14 @@
 package hometask5.task1.io;
 
-import kz.e16training.fileworks.exceptions.CloseInputStreamException;
-import kz.e16training.fileworks.exceptions.GetTextFromUserInputException;
+
+import hometask5.task1.exception.CloseInputStreamException;
+import hometask5.task1.exception.GetTextFromUserInputException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Input - output.
- *
- */
+
 public class IO {
     private static final String ASK_FOR_COMMAND = "Input command:";
     private static final String ASK_FOR_TEXT = "Input text:";

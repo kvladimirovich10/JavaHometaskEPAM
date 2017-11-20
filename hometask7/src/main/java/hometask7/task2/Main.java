@@ -1,0 +1,1 @@
+package hometask7.task2;public class Main {}

@@ -1,15 +1,12 @@
 package hometask5.task1.service;
 
-import kz.e16training.fileworks.exceptions.CloseInputStreamException;
-import kz.e16training.fileworks.exceptions.GetTextFromUserInputException;
-import kz.e16training.fileworks.io.IO;
+
+import hometask5.task1.exception.CloseInputStreamException;
+import hometask5.task1.exception.GetTextFromUserInputException;
+import hometask5.task1.io.IO;
 
 import java.io.IOException;
 
-/**
- * Main controller
- *
- */
 public class Controller {
 
     public Controller() {
@@ -42,33 +39,27 @@ public class Controller {
         IO.print(outputString);
     }
 
-    public String getCommand() throws IOException {
-        try {
-            return IO.getCommand();
-        } catch (GetTextFromUserInputException e) {
-            return WorkCommand.WRONG_COMMAND.getCommandValue();
-        }
+    public String getCommand() throws IOException, GetTextFromUserInputException {
+        return IO.getCommand();
     }
 
-    public void commandLine() {
+    public void commandLine() throws CloseInputStreamException {
         String readCommand = "";
         viewHelp();
-        while(true) {
+        while (true) {
             askForCommand();
             try {
                 readCommand = getCommand();
             } catch (IOException e) {
-                // do something! ;)
+
+            } catch (GetTextFromUserInputException e) {
+                e.printStackTrace();
             }
             if (isReadCommandValid(readCommand))
                 output(doCommand(readCommand));
             if (readCommand.equals(WorkCommand.EXIT
                     .getCommandValue())) break;
         }
-        try {
-            IO.close();
-        } catch (CloseInputStreamException e) {
-            System.out.println(e.getMessage());
-        }
+        IO.close();
     }
 }

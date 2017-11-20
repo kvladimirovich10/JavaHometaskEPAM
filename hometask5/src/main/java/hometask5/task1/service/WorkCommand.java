@@ -1,16 +1,13 @@
 package hometask5.task1.service;
 
 
-import kz.e16training.fileworks.exceptions.*;
-import kz.e16training.fileworks.io.FileWork;
-import kz.e16training.fileworks.io.IO;
+import hometask5.task1.exception.FileReadException;
+import hometask5.task1.exception.ProjectMainException;
+import hometask5.task1.io.FileWork;
+import hometask5.task1.io.IO;
 
 import java.io.IOException;
 
-/**
- * Commands.
- *
- */
 public enum WorkCommand implements IWCommand {
     EXIT(1, "exit", "Exit from program",
             "have no parameters") {
