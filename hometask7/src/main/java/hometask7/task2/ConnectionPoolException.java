@@ -1,0 +1,1 @@
+package hometask7.task2;public class ConnectionPoolException extends Exception {    public ConnectionPoolException(String message, Exception e){        super(message, e);    }}

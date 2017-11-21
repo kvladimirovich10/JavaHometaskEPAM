@@ -1,1 +1,1 @@
-package hometask7.task2;public class Main {}
+package hometask7.task2;import java.util.ArrayList;public class Main {    public static void main(String[] args) {        ArrayList<String> DBconnectionProp = Service.getPropValue();    }}
